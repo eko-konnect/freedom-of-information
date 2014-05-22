@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bck"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Eko" >
+    
+     <ImageButton
+         android:id="@+id/imageButton1"
+         android:scaleType="fitXY"
+         android:layout_width="wrap_content"
+         android:layout_height="150dp"
+         android:layout_centerHorizontal="true"
+         android:contentDescription="@string/imageeko"
+         android:clickable="true"
+         android:onClick="webbie"
+         android:src="@drawable/eko1" />
+     
+     
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton1" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/e"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    
+</RelativeLayout>

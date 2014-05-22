@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.FOI.freedomofinformation"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:screenOrientation="portrait" >
+        <activity
+            android:name="com.FOI.freedomofinformation.HomeScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.ActsSections"
+            android:label="@string/title_activity_acts_sections"
+            android:parentActivityName="com.FOI.freedomofinformation.Homescreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation.HomeScreen" />
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.Section1"
+            android:label="@string/title_activity_section1"
+            android:parentActivityName="com.FOI.freedomofinformation.HomeScreen.actsSections" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation.HomeScreen.actsSections" />
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.Section2"
+            android:label="@string/title_activity_section2"
+            android:parentActivityName="com.FOI.freedomofinformation.HomeScreen.actsSections" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation.HomeScreen.actsSections" />
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.Section3"
+            android:label="@string/title_activity_section3"
+            android:parentActivityName="com.FOI.freedomofinformation.HomeScreen.ActsSections" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation.HomeScreen.ActsSections" />
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.Section4"
+            android:label="@string/title_activity_section4"
+            android:parentActivityName="com.FOI.freedomofinformation.HomeScreen.actsSections" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation.HomeScreen.actsSections" />
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.Section5"
+            android:label="@string/title_activity_section5"
+            android:parentActivityName="com.FOI.freedomofinformation.HomeScreen.actsSections" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation.HomeScreen.actsSections" />
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.Section6"
+            android:label="@string/title_activity_section6"
+            android:parentActivityName="com.FOI.freedomofinformation.HomeScreen.actsSections" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation.HomeScreen.actsSections" />
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.Section7"
+            android:label="@string/title_activity_section7"
+            android:parentActivityName="com.FOI.freedomofinformation.HomeScreen.actsSections" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation.HomeScreen.actsSections" />
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.Section8"
+            android:label="@string/title_activity_section8"
+            android:parentActivityName="com.FOI.freedomofinformation.HomeScreen.actsSections" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation.HomeScreen.actsSections" />
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.Section9"
+            android:label="@string/title_activity_section9"
+            android:parentActivityName="com.FOI.freedomofinformation.HomeScreen.actsSections" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation.HomeScreen.actsSections" />
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.Section10"
+            android:label="@string/title_activity_section10"
+            android:parentActivityName="com.FOI.freedomofinformation.HomeScreen.actsSections" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation.HomeScreen.actsSections" />
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.Section11"
+            android:label="@string/title_activity_section11"
+            android:parentActivityName="com.FOI.freedomofinformation.HomeScreen.actsSections" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation.HomeScreen.actsSections" />
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.Section12"
+            android:label="@string/title_activity_section12"
+            android:parentActivityName="com.FOI.freedomofinformation.HomeScreen.actsSections" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation.HomeScreen.actsSections" />
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.Section13"
+            android:label="@string/title_activity_section13"
+            android:parentActivityName="com.FOI.freedomofinformation.HomeScreen.actsSections" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation.HomeScreen.actsSections" />
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.Section14"
+            android:label="@string/title_activity_section14"
+            android:parentActivityName="com.FOI.freedomofinformation.HomeScreen.actsSections" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation.HomeScreen.actsSections" />
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.Section15"
+            android:label="@string/title_activity_section15"
+            android:parentActivityName="com.FOI.freedomofinformation.HomeScreen.actsSections" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation.HomeScreen.actsSections" />
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.Section16"
+            android:label="@string/title_activity_section16"
+            android:parentActivityName="com.FOI.freedomofinformation.HomeScreen.actsSections" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation.HomeScreen.actsSections" />
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.Section17"
+            android:label="@string/title_activity_section17"
+            android:parentActivityName="com.FOI.freedomofinformation.HomeScreen.actsSections" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation.HomeScreen.actsSections" />
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.Section18"
+            android:label="@string/title_activity_section18"
+            android:parentActivityName="com.FOI.freedomofinformation.HomeScreen.actsSections" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation.HomeScreen.actsSections" />
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.Section19"
+            android:label="@string/title_activity_section19"
+            android:parentActivityName="com.FOI.freedomofinformation.HomeScreen.actsSections" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation.HomeScreen.actsSections" />
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.Section20"
+            android:label="@string/title_activity_section20"
+            android:parentActivityName="com.FOI.freedomofinformation.HomeScreen.actsSections" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation.HomeScreen.actsSections" />
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.Section21"
+            android:label="@string/title_activity_section21"
+            android:parentActivityName="com.FOI.freedomofinformation.HomeScreen.actsSections" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation.HomeScreen.actsSections" />
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.Section22"
+            android:label="@string/title_activity_section22"
+            android:parentActivityName="com.FOI.freedomofinformation.HomeScreen.actsSections" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation.HomeScreen.actsSections" />
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.Section23"
+            android:label="@string/title_activity_section23"
+            android:parentActivityName="com.FOI.freedomofinformation.HomeScreen.actsSections" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation.HomeScreen.actsSections" />
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.Section24"
+            android:label="@string/title_activity_section24"
+            android:parentActivityName="com.FOI.freedomofinformation.HomeScreen.actsSections" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation.HomeScreen.actsSections" />
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.Section25"
+            android:label="@string/title_activity_section25"
+            android:parentActivityName="com.FOI.freedomofinformation.HomeScreen.actsSections" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation.HomeScreen.actsSections" />
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.Section26"
+            android:label="@string/title_activity_section26"
+            android:parentActivityName="com.FOI.freedomofinformation.HomeScreen.actsSections" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation.HomeScreen.actsSections" />
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.Section27"
+            android:label="@string/title_activity_section27"
+            android:parentActivityName="com.FOI.freedomofinformation.HomeScreen.actsSections" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation.HomeScreen.actsSections" />
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.Section28"
+            android:label="@string/title_activity_section28"
+            android:parentActivityName="com.FOI.freedomofinformation.HomeScreen.actsSections" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation.HomeScreen.actsSections" />
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.Section29"
+            android:label="@string/title_activity_section29"
+            android:parentActivityName="com.FOI.freedomofinformation.HomeScreen.actsSections" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation.HomeScreen.actsSections" />
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.Section30"
+            android:label="@string/title_activity_section30"
+            android:parentActivityName="com.FOI.freedomofinformation.HomeScreen.actsSections" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation.HomeScreen.actsSections" />
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.Section31"
+            android:label="@string/title_activity_section31"
+            android:parentActivityName="com.FOI.freedomofinformation.HomeScreen.actsSections" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation.HomeScreen.actsSections" />
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.Section32"
+            android:label="@string/title_activity_section32"
+            android:parentActivityName="com.FOI.freedomofinformation.HomeScreen.actsSections" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation.HomeScreen.actsSections" />
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.Section33"
+            android:label="@string/title_activity_section33"
+            android:parentActivityName="com.FOI.freedomofinformation.HomeScreen.actsSections" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation.HomeScreen.actsSections" />
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.Section34"
+            android:label="@string/title_activity_section34"
+            android:parentActivityName="com.FOI.freedomofinformation.HomeScreen.actsSections" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation.HomeScreen.actsSections" />
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.AboutFOIApp"
+            android:label="@string/title_activity_about_foiapp"
+            android:parentActivityName="com.FOI.freedomofinformation.Homescreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation.Homescreen" />
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.Contact"
+            android:label="@string/title_activity_contact"
+            android:parentActivityName="com.FOI.freedomofinformation.HomeScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation.HomeScreen" />
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.Ford"
+            android:label="@string/title_activity_ford"
+            android:parentActivityName="com.FOI.freedomofinformation.HomeScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation.HomeScreen" />
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.Eko"
+            android:label="@string/title_activity_eko"
+            android:parentActivityName="com.FOI.freedomofinformation" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation" />
+        </activity>
+        <activity
+            android:name="com.FOI.freedomofinformation.Mediarights"
+            android:label="@string/title_activity_mediarights"
+            android:parentActivityName="com.FOI.freedomofinformation.HomeScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.FOI.freedomofinformation.HomeScreen" />
+        </activity>
+    </application>
+
+</manifest>
